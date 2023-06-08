@@ -1,0 +1,425 @@
+
+body{
+  margin:0;
+  padding: :0;
+  box-sizing: border-box;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+h1,h2{margin-bottom: 20px;}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 3;
+  background-color: white;
+  padding-right: 20px;
+}
+
+
+
+.navbar {
+position: relative;
+bottom: 20px;
+background-color: none;
+padding-right: 20px;
+}
+
+.navbar li a{
+  padding-left: 20px;
+}
+
+.navbar li:hover{
+  border-bottom: 1px solid orange;
+}
+
+.logo{
+margin-left: 20px;
+}
+
+.navbar-nav li{
+  border-right: 1px solid #f1f1f1;
+
+
+}
+
+
+.topbar li{
+margin: 7px;
+list-style-type: none;
+
+}
+
+.topbar li a{
+  text-decoration: none;
+  color: orange;
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border:none;
+  border-radius: none;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nav-item:hover .dropdown-menu{
+  display: block;
+}
+
+ button{
+  background-color: #da5800;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover{
+  color: white;
+}
+
+.miss{
+background-color: #f1f5f7;
+padding-bottom: 10px;
+}
+
+.miss h1
+{
+  text-align: center;
+  font-weight:lighter;
+  padding-top: 50px;
+}
+
+.miss h2{
+  text-align: center;
+  font-weight:lighter;
+
+}
+
+.miss p{
+  text-align: center;
+  font-weight:lighter;
+  padding: 0px 50px;
+}
+
+.want{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #f1f5f7;
+}
+
+.want div{
+  margin: 10px;
+}
+
+.mist{
+padding: 20px;
+text-align: center;
+font-weight: lighter;
+background-color: #f1f5f7;
+}
+
+.mist h1{
+  font-weight: lighter;
+}
+
+/* .mistbg{
+  height: 400px;
+  width: 100%;
+  background-image: url("code pics/me.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  padding-bottom: 20px;
+} */
+
+
+.heading{
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.pics{
+  display: flex;
+  padding: 70px;
+}
+
+.pics img{
+padding-right: 30px;
+}
+
+.pics h1{
+  font-size: 30px;;
+}
+
+.p-one{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lines{
+
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  opacity: 0.9px;
+}
+
+.programs {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: row-reverse;
+padding: 50px;
+background-color: #f7f8f8;
+}
+
+.program-content{
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.program-content h1{
+  font-size: 30px;
+}
+
+.programs div{
+padding: 15px;
+}
+
+.programs img{
+}
+
+.orange{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  height: 200px;
+  background-color: #da5800;
+
+}
+
+.orange h1{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+
+.orange p{
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 998px) {
+  .orange p {
+  display: none;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .orange{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .orange p{
+    display: none;
+  }
+}
+
+.imager{
+  background-image: url("code pics/about.jpg");
+  padding: 70px;
+}
+
+.mands{
+  display: flex;
+}
+
+.mission{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.ranks{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranks img{
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.hubs{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.hubs h1{
+  color: #0B4B6F;
+  text-align: center;
+}
+.hubs p{
+  text-align: center;
+}
+
+.journey {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 50px;
+background-color: #EFF8F6;
+border-radius: 10px;
+box-shadow: 0px 7px 30px -20px ;
+}
+
+.j-content{
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.journey div{
+padding: 15px;
+}
+
+.review {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: row-reverse;
+margin: 50px;
+box-shadow:0 7px 30px -20px ;
+
+}
+
+.review div{
+  margin: 10px;
+  width: 600px;
+}
+
+
+input{
+  border:none;
+  border-bottom: 1px solid gray;
+  outline:none;
+}
+
+
+
+/* the new footer concept begins here */
+
+.footimgages{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footimgages .faith-list .faith-liste{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footimgages a{
+  margin: 10px;
+}
+
+.faith{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  justify-content:center;
+  height: 150px;
+  align-items: center;
+}
+
+.faith-list{
+  display: flex;
+  border-right: 1px solid white;
+  padding: 10px;
+}
+
+.faith-list a{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 998px) {
+  .faith-list{
+    display: none;
+  }
+}
+
+@media screen and (max-width:998px) {
+  .faith-list p{
+    display: none;
+  }
+}
+
+.faith-list p{
+  color: white;
+}
+
+.faith-liste{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+@media screen and (max-width: 600px) {
+  .faith-liste{
+    display:flex;
+
+  }
+}
+
+.faith-liste a{
+  padding-left: 30px;
+  color: white;
+  font-size: 20px;
+}
